@@ -1,3 +1,9 @@
 const mongoose=require('mongoose');
 
-module.exports = mongoose.model('students', studentSchema);
+
+const resultSchema = mongoose.Schema({
+    id : Number,
+     
+})
+
+module.exports = mongoose.model('results', resultSchema);
